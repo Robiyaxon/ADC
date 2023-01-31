@@ -1,10 +1,32 @@
 .Header {
-    border: 2px solid red;
-    padding: 20px 100px;
+    padding: 24px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .Header img {
     width: 82px;
     height: 39.19px;
-    
+}
+
+.Link {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Link a {
+    margin: 0 44px ;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.Link select{
+    background-image: "../";
 }

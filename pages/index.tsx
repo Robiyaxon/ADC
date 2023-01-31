@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.css'
 import About from './about'
 import Header from './header/header'
 import Link from 'next/link'
+import HomePage from './home/Home'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -16,9 +17,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Link href={"/about"}>About</Link>
         <Header/>
-        <About/>
+        <HomePage/>
       </main>
     </>
   )

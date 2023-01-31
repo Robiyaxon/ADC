@@ -1,0 +1,94 @@
+.Home {
+    background-image: url("../../public/images/backgrount.png");
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Img {
+    width: 48%;
+}
+
+.Img img {
+    margin-left: 2rem;
+    margin-top: -4rem;
+    width: 80%;
+    height: 550px;
+}
+
+.title {
+    width: 48%;
+}
+
+.title h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 120%;
+    width: 484px;
+    letter-spacing: -0.01em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.title p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.title input {
+    background-image: url("../../public/images/search.png");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) 50%;
+    width: 506px;
+    height: 68px;
+    outline: none;
+    background-color: #1F2143;
+    border-radius: 12px;
+    margin-top: 30px;
+    padding: 0 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.title h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 28px;
+}
+
+.List {
+    display: flex;
+    flex-wrap: wrap;
+    width: 506px;
+    margin-top: 20px;
+}
+
+.List h2 {
+    border: 2px solid rgba(154, 156, 203, 0.6);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    color: rgba(154, 156, 203, 0.6);
+    margin: 10px 10px;
+}
