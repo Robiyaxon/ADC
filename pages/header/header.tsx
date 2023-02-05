@@ -22,9 +22,9 @@ const Header = () => {
 
       </div>
       <select>
-        <option value="">UZB</option>
-        <option value="">ENG</option>
-        <option value="">RUS</option>
+        <option value="" className={style.opt1}>UZB</option>
+        <option value="" className={style.opt2}>ENG</option>
+        <option value="" className={style.opt3}>RUS</option>
       </select>
     </div>
   )

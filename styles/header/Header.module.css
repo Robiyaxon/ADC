@@ -27,6 +27,11 @@
     color: #FFFFFF;
     text-decoration: none;
 }
-.Link select{
-    background-image: "../";
+.Header select{
+    /* color: red; */
+    background-image: url("../../public/images/language.gif");
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 40px;
 }

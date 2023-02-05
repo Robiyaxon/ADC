@@ -10,6 +10,7 @@ const HomePage = () => {
           alt="Picture of the author"
           width={500}
           height={500}
+          className={style.girl}
         />
       </div>
       <div className={style.title}>
